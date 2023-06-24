@@ -3,10 +3,11 @@ import html from "../assets/html.png"
 import css from "../assets/css.png"
 import javascript from "../assets/javascript.png"
 import reactImage from "../assets/react.png"
-// import nextjs from "../assets/nextjs.png"
+import node from "../assets/node.png"
 import graphql from "../assets/graphql.png"
-// import github from "../assets/github.png"
-// import tailwind from "../assets/tailwind.png"
+import angular from "../assets/angular.png"
+import spring from "../assets/spring.png"
+import aws from '../assets/aws.png';
 
 const Experience = () => {
 
@@ -32,10 +33,34 @@ const Experience = () => {
             title: 'React',
             style: 'shadow-blue-500'
         }, {
-            id: 4,
+            id: 9,
             src: graphql,
             title: 'GraphQL',
             style: 'shadow-pink-500'
+        },
+        {
+            id: 5,
+            src: node,
+            title: 'NodeJs',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 6,
+            src: angular,
+            title: 'Angular',
+            style: 'shadow-red-500'
+        },
+        {
+            id: 7,
+            src: spring,
+            title: 'Spring',
+            style: 'shadow-green-500'
+        },
+        {
+            id: 8,
+            src: aws,
+            title: 'AWS',
+            style: 'shadow-orange-500'
         },
     ]
 

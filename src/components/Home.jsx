@@ -9,11 +9,9 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold  text-white'>
-                        I'm a fullstack developer
-                    </h2>
+                        I'm a skilled Full Stack Developer                    </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        with 5 years of experience
-                    </p>
+                        with expertise in front-end and back-end development. Additionally, I hold AWS certification, demonstrating my proficiency in cloud computing and deployment solutions. With a strong understanding of web technologies and cloud services, I deliver robust and scalable applications with seamless integration.                    </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             Portfolio

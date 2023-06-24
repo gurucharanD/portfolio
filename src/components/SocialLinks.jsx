@@ -72,7 +72,6 @@ const SocialLinks = () => {
                         );
                     })
                 }
-
             </ul >
         </div >
     )
