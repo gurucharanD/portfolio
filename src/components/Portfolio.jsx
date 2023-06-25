@@ -33,6 +33,12 @@ const Portfolio = () => {
       src: angular,
       link: 'https://github.com/gurucharanD/movieshub',
       name: 'movies hub'
+    },
+    {
+      id: 6,
+      src: angular,
+      link: 'https://github.com/gurucharanD/scry-node',
+      name: 'angular web sockets'
     }
   ];
   return (
