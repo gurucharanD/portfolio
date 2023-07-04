@@ -62,7 +62,7 @@ const Portfolio = () => {
             portfolios.map(({ id, link, name }) => {
               return (
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                  <p className='text-center'><b>{name}</b></p>
+                  <p className='text-center py-2'><b>{name}</b></p>
                   <div className='flex items-center justify-center'>
                     <a className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' href={link} target='_blank' rel='noreferrer'>DEMO</a>
                     <a className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' href={link} target='_blank' rel='noreferrer'>CODE</a>
