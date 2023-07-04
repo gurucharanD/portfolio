@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
     {
       id: 7,
-      src: react,
+      src: reactImage,
       link: 'https://github.com/gurucharanD/twitter-clone',
       name: 'twitter clone'
     },
