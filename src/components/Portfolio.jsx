@@ -39,7 +39,13 @@ const Portfolio = () => {
       src: angular,
       link: 'https://github.com/gurucharanD/scry-node',
       name: 'angular web sockets'
-    }
+    },
+    {
+      id: 7,
+      src: react,
+      link: 'https://github.com/gurucharanD/twitter-clone',
+      name: 'twitter clone'
+    },
   ];
   return (
     <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
